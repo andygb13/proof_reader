@@ -1,0 +1,10 @@
+name: openai-env
+
+dependencies:
+  - python=3.10.*
+  - numpy
+  - matplotlib
+  - pandas
+  - pip:
+    - streamlit==1.22.0
+    - openai
